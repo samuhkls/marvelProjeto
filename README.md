@@ -1,4 +1,6 @@
-# marvelProjeto
+### marvelProjeto
+
+- Projeto feito usando a API https://developer.marvel.com
 
 # Requisitos 
-- um browser com suporte javascript
+- Como o projeto roda em HTML, CSS e JavaScript, só é neccesário um browser com suporte
