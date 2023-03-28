@@ -28,9 +28,12 @@ fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${a
         const divPai = document.createElement('div')
         const divFilho = document.createElement('div')
         const textName = document.createElement('text')
+        textName.classList.add("nomeChar")
+        const br = document.createElement('br')
         const botao = document.createElement('input')
         const img = document.createElement('img')
         botao.type='button';
+        botao.value='descrição'
         botao.classList.add("botaoDesc")
         botao.onclick = function() { // botao chama a função que escreve a descrição
             escreverDesc(heroDesc);
@@ -42,6 +45,7 @@ fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${a
         // coloca todos os elementos em uma so div
         divFilho.appendChild(img)
         divFilho.appendChild(textName)
+        divFilho.appendChild(br)
         divFilho.appendChild(botao)
         // joga essa div pra uma outra
         divPai.appendChild(divFilho)
