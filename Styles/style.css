@@ -18,3 +18,16 @@ img {
     border-radius: 16px;
     text-align: center;
 }
+
+.popup{
+    background-color: red;
+    color: white;
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+    width: 300px;
+    padding: 15px;
+}
+
+.botaoDesc
